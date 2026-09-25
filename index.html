@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Panadería Don Pepe: pastelería argentina artesanal en Godoy Cruz, Mendoza.">
+  <title>Panadería Don Pepe | Godoy Cruz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Panadería Don Pepe, inicio">
+      <span class="brand-mark" aria-hidden="true">DP</span>
+      <span>Don Pepe</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="sr-only">Abrir menú</span>
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Navegación principal">
+      <a href="#nosotros">Nosotros</a>
+      <a href="#especialidades">Especialidades</a>
+      <a href="#ubicacion">Ubicación</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">Hecho cada mañana en Godoy Cruz</p>
+        <h1>El sabor de la panadería argentina, como siempre.</h1>
+        <p class="hero-text">Recetas artesanales, ingredientes nobles y ese aroma a recién horneado que convierte cualquier día en uno especial.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#especialidades">Ver especialidades</a>
+          <a class="button button-secondary" href="#ubicacion">Cómo llegar</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Ilustración de productos de panadería">
+        <div class="sun"></div>
+        <div class="pastry pastry-one">🥐</div>
+        <div class="pastry pastry-two">🥖</div>
+        <div class="pastry pastry-three">🧁</div>
+        <p>Calentito.<br>Fresco.<br>Bien mendocino.</p>
+      </div>
+    </section>
+
+    <section class="section about" id="nosotros">
+      <div>
+        <p class="eyebrow">Nuestra historia</p>
+        <h2>Una panadería de barrio, hecha con corazón</h2>
+      </div>
+      <div class="about-copy">
+        <p>En Panadería Don Pepe celebramos los sabores que nos acompañan desde siempre. Amasamos, horneamos y decoramos cada producto en nuestro local de Godoy Cruz.</p>
+        <p>Nos mueve lo simple: una buena receta, tiempo, dedicación y la alegría de compartir algo rico.</p>
+        <div class="values" aria-label="Nuestros valores">
+          <span>Artesanal</span><span>Fresco</span><span>Local</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section specialties" id="especialidades">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Para darse un gusto</p>
+          <h2>Nuestras especialidades</h2>
+        </div>
+        <p>Clásicos argentinos preparados todos los días.</p>
+      </div>
+      <div class="menu-grid">
+        <article class="menu-card featured">
+          <span class="menu-icon" aria-hidden="true">🥐</span>
+          <p class="tag">Favorito</p>
+          <h3>Medialunas</h3>
+          <p>Doradas, tiernas y con el almíbar justo. De manteca o de grasa.</p>
+        </article>
+        <article class="menu-card">
+          <span class="menu-icon" aria-hidden="true">🍰</span>
+          <h3>Tortas artesanales</h3>
+          <p>Rogel, chocotorta, selva negra y opciones para cada celebración.</p>
+        </article>
+        <article class="menu-card">
+          <span class="menu-icon" aria-hidden="true">🍪</span>
+          <h3>Alfajores</h3>
+          <p>Tapas suaves, mucho dulce de leche y terminaciones caseras.</p>
+        </article>
+        <article class="menu-card">
+          <span class="menu-icon" aria-hidden="true">🥖</span>
+          <h3>Panificados</h3>
+          <p>Pan francés, miñones y especialidades recién salidas del horno.</p>
+        </article>
+        <article class="menu-card">
+          <span class="menu-icon" aria-hidden="true">🧁</span>
+          <h3>Facturas</h3>
+          <p>Vigilantes, tortitas negras, cañoncitos y clásicos para el mate.</p>
+        </article>
+        <article class="menu-card">
+          <span class="menu-icon" aria-hidden="true">🥧</span>
+          <h3>Tartas dulces</h3>
+          <p>Pasta frola, tarta de ricota y opciones de estación.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section location" id="ubicacion">
+      <div class="location-info">
+        <p class="eyebrow">Vení a visitarnos</p>
+        <h2>Tu próxima parada dulce</h2>
+        <address>
+          <strong>Panadería Don Pepe</strong>
+          <span>San Martín Sur 500</span>
+          <span>Godoy Cruz, Mendoza</span>
+        </address>
+        <a class="button button-primary" href="https://www.google.com/maps/search/?api=1&query=San+Mart%C3%ADn+Sur+500%2C+Godoy+Cruz%2C+Mendoza" target="_blank" rel="noopener noreferrer">Abrir en Google Maps</a>
+      </div>
+      <div class="map-frame">
+        <iframe
+          title="Mapa de Panadería Don Pepe"
+          src="https://www.google.com/maps?q=San+Mart%C3%ADn+Sur+500,+Godoy+Cruz,+Mendoza&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#inicio"><span class="brand-mark">DP</span><span>Don Pepe</span></a>
+    <p>Hecho con cariño en Godoy Cruz.</p>
+    <p>© <span id="year"></span> Panadería Don Pepe</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
